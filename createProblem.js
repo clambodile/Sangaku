@@ -27,13 +27,10 @@ const signs = {
 
 function createProblems(options) {
 
+  console.log('options in createProblems:', options);
   let types = ['addition', 'subtraction', 'multiplication', 'division'];
   
-  types = types.filter(type => {
- 
-    return options[type];
- 
-  });
+  types = types.filter(type => options[type]);
 
 
   let problems = [];
@@ -55,6 +52,7 @@ function createProblems(options) {
     terms[terms.length - 1] = `${sign} ${terms[terms.length - 1]}`;
 
     let problem = terms.join('\n');
+    console.log('problem in createProblem:', problem);
 
     problems.push(problem);
 
