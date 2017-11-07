@@ -1,0 +1,40 @@
+#options-column {
+ 
+  float: left;
+
+  width: 28%;
+  min-width: 200px;
+ 
+}
+
+#problem-column {
+ 
+  float: left;
+
+  max-width: 62%;
+  /* min-width: 300px; */
+}
+
+.problem-block {
+
+  padding: 10px;
+
+  float: left;
+ 
+  text-align: right;
+ 
+  width: 30px;
+
+  white-space: nowrap;
+  /* display: inline-block; */
+}
+
+.problem-block > hr {
+ 
+  border-style: solid;
+ 
+}
+
+.problem-block > input {
+  width: inherit;
+}
