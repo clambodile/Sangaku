@@ -1,80 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/styles.css" type="text/css">
-  <title></title>
-</head>
-
-<body>
-  <div class="container">
-    <div id="options-column" width="20%">
-      <form id="problem_options">
-        <fieldset>
-          <legend>Problem Types</legend>
-          <p>
-            <input type="checkbox" name="addition" id="addition_check" class="problem_type" checked="true">
-            <label for="addition_check">Addition</label>
-          </p>
-          <p>
-            <input type="checkbox" name="subtraction" id="subtraction_check" class="problem_type">
-            <label for="subtraction_check">Subtraction</label>
-          </p>
-          <p>
-            <input type="checkbox" name="multiplication" id="multiplication_check" class="problem_type">
-            <label for="multiplication_check">Multiplication</label>
-          </p>
-          <p>
-            <input type="checkbox" name="division" id="division_check" class="problem_type">
-            <label for="division_check">Division</label>
-          </p>
-        </fieldset>
-        <fieldset>
-          <legend>Number of Problems</legend>
-          <p>
-            <input type="number" name="no_of_problems" id="no_of_problems" value=10>
-            <label for="division_check">Problems</label>
-          </p>
-        </fieldset>
-        <fieldset>
-          <legend>Terms per Problem</legend>
-          <p>
-            <input type="number" name="terms_per_problem" id="terms_per_problem" value=2>
-            <label for="terms_per_problem">Problems</label>
-          </p>
-        </fieldset>
-        <fieldset>
-          <legend>Range of Operands</legend>
-          <p>
-            <input type="number" name="min_operand" id="min_operand" value=1>
-            <label for="min_operand">Minimum</label>
-          </p>
-          <p>
-            <input type="number" name="max_operand" id="max_operand" value=10>
-            <label for="max_operand">Maximum</label>
-          </p>
-        </fieldset>
-        <p>
-          <button>Get Problems</button>
-        </p>
-      </form>
-    </div>
-
-  </div>
-  <div id="problem-column" width="80%">
-    <div class="problem-block">
-      <div>5</div>
-      <div>&plus;5</div>
-      <hr width="30">
-      <input>
-    </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.24.1/ramda.min.js"></script>
-  <script src="./createProblem.js"></script>
-  <script src="./controller.js"></script>
-  <script src="./index.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>sangaku</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
