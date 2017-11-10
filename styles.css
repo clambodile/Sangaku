@@ -7,6 +7,10 @@
  
 }
 
+.container {
+  max-width: 30%;
+}
+
 #problem-column {
  
   float: left;
